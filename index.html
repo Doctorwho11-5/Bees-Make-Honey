@@ -238,40 +238,7 @@
 </nav>
 <div class="main">
 <!-- Content Here -->
-<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLUeARmyDt0UB_R0RCYsAKA-falN-xTAC_2iWj1XgkNqVmKiJL" alt="Bees" style="width:304px;height:228px;">
-<h2>Find out How Bees make honey<br>
-Where they get honey from<br>
-Digestivie system and honey storage</h2>
-<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQygMhjz2An2NlBOMHvLIpLZfvQ3D5xdbKfE9we9LmthdBqsjECVg" alt="Bee Honey" style="width:305px;height:229px;"
-</div>
-	<script type="text/javascript">
-	    function htmlbodyHeightUpdate(){
-		var height3 = $( window ).height()
-		var height1 = $('.nav').height()+50
-		height2 = $('.main').height()
-		if(height2 > height3){
-			$('html').height(Math.max(height1,height3,height2)+10);
-			$('body').height(Math.max(height1,height3,height2)+10);
-		}
-		else
-		{
-			$('html').height(Math.max(height1,height3,height2));
-			$('body').height(Math.max(height1,height3,height2));
-		}
-		
-	}
-	$(document).ready(function () {
-		htmlbodyHeightUpdate()
-		$( window ).resize(function() {
-			htmlbodyHeightUpdate()
-		});
-		$( window ).scroll(function() {
-			height2 = $('.main').height()
-  			htmlbodyHeightUpdate()
-		});
-	});
-	</script>
-	<p class="fst">
+<p class="fst">
 	<h3>How do Bees Make Honey</h3><br>
 <img src="http://www.bees-online.com/images/beexray.gif" alt="bee anatomy" style="width:304px;height:228">Bees first collect nectar from flowers they visit. They use a long straw-like tongue to suck it out and store it in a
 “honey stomach” which is different from their regular stomach. When it’s full, they fly back to the hive and deposit the honey. 
@@ -300,6 +267,35 @@ Drones are males without stingers, whose sole purpose is mating with the queen. 
 collect food. If there is a food shortage, drone bees may be kicked out of the hive to reduce food loss.
 	
 	</p>	
+</div>
+	<script type="text/javascript">
+	    function htmlbodyHeightUpdate(){
+		var height3 = $( window ).height()
+		var height1 = $('.nav').height()+50
+		height2 = $('.main').height()
+		if(height2 > height3){
+			$('html').height(Math.max(height1,height3,height2)+10);
+			$('body').height(Math.max(height1,height3,height2)+10);
+		}
+		else
+		{
+			$('html').height(Math.max(height1,height3,height2));
+			$('body').height(Math.max(height1,height3,height2));
+		}
+		
+	}
+	$(document).ready(function () {
+		htmlbodyHeightUpdate()
+		$( window ).resize(function() {
+			htmlbodyHeightUpdate()
+		});
+		$( window ).scroll(function() {
+			height2 = $('.main').height()
+  			htmlbodyHeightUpdate()
+		});
+	});
+	</script>
+	
 </body>
 </center>
 </html>
